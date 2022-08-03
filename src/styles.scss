@@ -1,0 +1,56 @@
+.user {
+  &-list {
+    width: 40%;
+    margin: 0 auto;
+  }
+  &-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3e3d3d;
+    padding: 10px 15px;
+    color: #e7e7e7;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 14px;
+    cursor: pointer;
+    &:hover {
+      background: #696869;
+    }
+    img {
+      height: 40px;
+    }
+  }
+  &-profile {
+    color: white;
+    &-image {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img {
+        height: 70px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.heading {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.content-box {
+  margin-bottom: 10px;
+}
+.label {
+  font-size: 22px;
+  font-weight: 600;
+  color: darkgrey;
+}
+.content {
+  letter-spacing: 1px;
+  font-size: 18px;
+}
